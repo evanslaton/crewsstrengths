@@ -1,0 +1,96 @@
+nav.navbar {
+  background-color: green;
+  border-bottom: 5px solid grey;
+}
+
+li.nav-item {
+  margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+a.nav-link {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
+/*============ Header ============*/
+.example {
+  background-color: azure;
+  height: 300px;
+}
+
+/*============ Main Section ============*/
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+.lt-grey-background {
+  background-color: lightgrey;
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section img {
+  margin-bottom: 20px;
+}
+
+
+
+
+/*============ Footer ============*/
+.grey-background {
+  background-color: grey;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+footer a, footer p, footer i {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul {
+  margin: 20px auto 0;
+  padding: 0;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 575px) {
+  footer ul {
+    margin: 0 auto;
+  }
+}
