@@ -19,12 +19,33 @@ a.nav-link {
   text-shadow: 1px 1px 1px black;
 }
 
+a.nav-link:hover {
+  text-shadow: 1px 1px 5px black;
+}
 
 
 /*============ Header ============*/
-.example {
-  background-color: azure;
-  height: 300px;
+div.example {
+  background-image: url(../img/superhero.jpg);
+  background-repeat: no-repeat;
+  background-position: 35% 0;
+
+}
+
+header {
+  padding: 70px 0;
+  color: white;
+  font-family: Bangers;
+}
+
+header h1, header h2 {
+  font-size: 4em;
+  text-shadow: 1px 1px 10px black;
+}
+
+header h2 {
+  font-size: 2.2em;
+  margin-top: 20px;
 }
 
 /*============ Main Section ============*/
@@ -44,6 +65,17 @@ a.nav-link {
   padding: 50px 0;
 }
 
+
+.sinister {
+  font-size: 1.5em;
+  font-family: "Creepster";
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 5px 5px 2px black;
+}
+
+
 section h2 {
   margin-bottom: 20px;
 }
@@ -51,8 +83,6 @@ section h2 {
 section img {
   margin-bottom: 20px;
 }
-
-
 
 
 /*============ Footer ============*/
