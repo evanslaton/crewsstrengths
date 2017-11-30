@@ -36,6 +36,7 @@ div.example {
   background-image: url(../img/superhero.jpg);
   background-repeat: no-repeat;
   background-position: 35% 0;
+  box-shadow: 0 1px 1px black;
 
 }
 
@@ -68,11 +69,19 @@ p {
 }
 
 .lt-grey-background {
-  background-color: lightgrey;
+  background-color: grey;
 }
 
 .section-padding {
   padding: 50px 0;
+}
+
+.hero-bg {
+  background-image: url(../img/heroes.png);
+  background-repeat: no-repeat;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  color: white;
 }
 
 .sinister {
@@ -81,6 +90,51 @@ p {
   padding: 0 20px;
 }
 
+.text-shadow {
+  text-shadow: 1px 1px 1px black;
+}
+
+/*============ Footer ============*/
+.side-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.testimonials {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px 15px 15px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 20px;
+}
+
+.stars {
+  display: block;
+  margin: 10px 0;
+}
+
+.testimonial1 {
+  background-image: url(../img/testimonial1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial2 {
+  background-image: url(../img/testimonial2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial3 {
+  background-image: url(../img/testimonial3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidekick {
+  margin-left: 120px;
+}
 
 /*============ Footer ============*/
 .grey-background {
