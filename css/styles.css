@@ -64,6 +64,21 @@ header h2 {
   padding: 0;
 }
 
+.evil-eyes {
+  height: 200px;
+  background-image: url(../img/evil-eyes.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.fixed {
+  background-attachment: fixed;
+}
+
+.big-font {
+  font-size: 1.5em;
+}
+
 p {
   padding: 0 20px;
 }
@@ -136,9 +151,18 @@ p {
   margin-left: 120px;
 }
 
+
+
+/*============ Speaking & Workshops ============*/
+.breathing-room {
+  margin: 20px 0;
+}
+
+
 /*============ Footer ============*/
-.grey-background {
-  background-color: grey;
+footer {
+  background-color: green;
+  border-top: 5px solid grey;
 }
 
 footer {
