@@ -1,3 +1,10 @@
+/*============ Whole Page ============*/
+.hero {
+  font-family: Bangers;
+}
+
+
+/*============ Navbarr ============*/
 nav.navbar {
   background-color: green;
   border-bottom: 5px solid grey;
@@ -35,7 +42,6 @@ div.example {
 header {
   padding: 70px 0;
   color: white;
-  font-family: Bangers;
 }
 
 header h1, header h2 {
@@ -57,6 +63,10 @@ header h2 {
   padding: 0;
 }
 
+p {
+  padding: 0 20px;
+}
+
 .lt-grey-background {
   background-color: lightgrey;
 }
@@ -65,23 +75,10 @@ header h2 {
   padding: 50px 0;
 }
 
-
 .sinister {
   font-size: 1.5em;
-  font-family: "Creepster";
-  display: inline-block;
-  border: 1px solid black;
-  padding: 10px;
-  box-shadow: 5px 5px 2px black;
-}
-
-
-section h2 {
-  margin-bottom: 20px;
-}
-
-section img {
-  margin-bottom: 20px;
+  font-family: "Chewy";
+  padding: 0 20px;
 }
 
 
