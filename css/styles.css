@@ -3,8 +3,37 @@
   font-family: Bangers;
 }
 
+.container-fluid {
+  padding: 0;
+}
 
-/*============ Navbarr ============*/
+.container {
+  padding: 0;
+}
+
+.big-font {
+  font-size: 1.5em;
+}
+
+p {
+  padding: 0 20px;
+}
+
+.top-bottom-borders {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px black;
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+
+
+/*============ Navbar ============*/
 nav.navbar {
   background-color: green;
   border-bottom: 5px solid grey;
@@ -37,7 +66,6 @@ div.example {
   background-repeat: no-repeat;
   background-position: 35% 0;
   box-shadow: 0 1px 1px black;
-
 }
 
 header {
@@ -55,13 +83,12 @@ header h2 {
   margin-top: 20px;
 }
 
-/*============ Main Section ============*/
-.container-fluid {
-  padding: 0;
-}
 
-.container {
-  padding: 0;
+/*============ Main Section ============*/
+.sinister {
+  font-size: 1.5em;
+  font-family: "Chewy";
+  padding: 0 20px;
 }
 
 .evil-eyes {
@@ -75,41 +102,31 @@ header h2 {
   background-attachment: fixed;
 }
 
-.big-font {
-  font-size: 1.5em;
-}
-
-p {
-  padding: 0 20px;
-}
-
 .lt-grey-background {
   background-color: grey;
-}
-
-.section-padding {
-  padding: 50px 0;
 }
 
 .hero-bg {
   background-image: url(../img/heroes.png);
   background-repeat: no-repeat;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
   color: white;
 }
 
-.sinister {
-  font-size: 1.5em;
-  font-family: "Chewy";
-  padding: 0 20px;
+.contact-flashy {
+  margin: 40px auto 0;
+  border: 2px solid white;
+  background-color: green;
+  padding: 10px;
+  max-width: 425px;
+  box-shadow: 1px 1px 1px black;
 }
 
-.text-shadow {
-  text-shadow: 1px 1px 1px black;
+.hero-bg .contact {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-/*============ Footer ============*/
+/*============ Testimonials ============*/
 .side-padding {
   padding-left: 30px;
   padding-right: 30px;
@@ -127,24 +144,28 @@ p {
 .stars {
   display: block;
   margin: 10px 0;
+  color: gold;
 }
 
 .testimonial1 {
   background-image: url(../img/testimonial1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .testimonial2 {
   background-image: url(../img/testimonial2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .testimonial3 {
   background-image: url(../img/testimonial3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .sidekick {
