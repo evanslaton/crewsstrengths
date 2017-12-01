@@ -1,6 +1,6 @@
 /*============ Whole Page ============*/
-.hero {
-  font-family: Bangers;
+body {
+  font-family: "Times New Roman", serif;
 }
 
 .container-fluid {
@@ -87,7 +87,6 @@ header h2 {
 /*============ Main Section ============*/
 .sinister {
   font-size: 1.5em;
-  font-family: "Chewy";
   padding: 0 20px;
 }
 
@@ -128,50 +127,17 @@ header h2 {
 
 /*============ Testimonials ============*/
 .side-padding {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.testimonials {
-  border: 1px solid black;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px 15px 15px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  margin-top: 20px;
-}
-
-.stars {
-  display: block;
-  margin: 10px 0;
-  color: gold;
-}
-
-.testimonial1 {
-  background-image: url(../img/testimonial1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.testimonial2 {
-  background-image: url(../img/testimonial2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.testimonial3 {
-  background-image: url(../img/testimonial3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.card {
+  margin: 15px 0;
 }
 
 .sidekick {
   margin-left: 120px;
 }
-
 
 
 /*============ Speaking & Workshops ============*/
