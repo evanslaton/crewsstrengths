@@ -61,10 +61,10 @@ a.nav-link:hover {
 
 
 /*============ Header ============*/
-div.example {
-  background-image: url(../img/superhero.jpg);
+div.header {
+  background-image: url(../img/header-img.jpg);
   background-repeat: no-repeat;
-  background-position: 35% 0;
+  background-position: center center;
   box-shadow: 0 1px 1px black;
 }
 
@@ -105,20 +105,6 @@ header h2 {
   background-color: grey;
 }
 
-.hero-bg {
-  background-image: url(../img/heroes.png);
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.contact-flashy {
-  margin: 40px auto 0;
-  border: 2px solid white;
-  background-color: green;
-  padding: 10px;
-  max-width: 425px;
-  box-shadow: 1px 1px 1px black;
-}
 
 .hero-bg .contact {
   margin-top: 0;
@@ -143,6 +129,10 @@ header h2 {
 /*============ Speaking & Workshops ============*/
 .breathing-room {
   margin: 20px 0;
+}
+
+ul {
+  padding: 0 20px;
 }
 
 
