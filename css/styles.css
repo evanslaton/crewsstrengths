@@ -1,6 +1,7 @@
 /*============ Whole Page ============*/
 body {
   font-family: "Times New Roman", serif;
+  font-size: 1.1em;
 }
 
 .container-fluid {
@@ -39,6 +40,10 @@ nav.navbar {
   border-bottom: 2px solid #61C250;
 }
 
+nav img {
+  margin-left: 20px;
+}
+
 li.nav-item {
   margin-right: 10px;
 }
@@ -75,7 +80,7 @@ header {
 }
 
 header h1, header h2 {
-  font-size: 4em;
+  font-size: 3em;
   text-shadow: 1px 1px 10px black;
 }
 
@@ -106,10 +111,17 @@ header h2 {
   background-color: grey;
 }
 
-
 .hero-bg .contact {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.margin-top-20px {
+  margin-top: 20px;
+}
+
+.margin-top-40px {
+  margin-top: 40px;
 }
 
 /*============ Testimonials ============*/
@@ -127,9 +139,44 @@ header h2 {
 }
 
 
-/*============ Speaking & Workshops ============*/
+/*============ About ============*/
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*============ Packages ============*/
 .breathing-room {
   margin: 20px 0;
+}
+
+.packages-link {
+  display: block;
+  width: 350px;
+  margin: 40px auto 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.packages-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.packages-link div {
+  background-color: #61C250;
+  border: 1px solid #61C250;
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+
+.packages-link div:hover {
+  background-color: white;
+}
+
+.packages-link p {
+  margin: 0;
 }
 
 ul {
