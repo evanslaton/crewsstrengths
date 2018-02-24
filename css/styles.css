@@ -1,7 +1,20 @@
 /*============ Whole Page ============*/
 body {
-  font-family: "Times New Roman", serif;
-  font-size: 1.1em;
+  font-family: "Robot", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  background-image: url(../img/background-logo.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+div.washout {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+div.big-box-shadow {
+  box-shadow: 0 0 10px black;
+  padding: 0;
 }
 
 .container-fluid {
@@ -9,11 +22,19 @@ body {
 }
 
 .container {
-  padding: 0;
+  background-color: white;
 }
 
 .big-font {
   font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", serif;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 p {
@@ -33,11 +54,24 @@ p {
   padding: 50px 0;
 }
 
+hr {
+  color: grey;
+  width: 90%;
+}
 
 /*============ Navbar ============*/
+div.washout {
+  padding: 50px 0;
+}
+
+div.nav-container {
+  padding: 0;
+}
+
 nav.navbar {
-  background-color: #000;
-  border-bottom: 2px solid #61C250;
+  background-color: #424242;
+  border-bottom: 2px solid #428911;
+  font-family: "Times New Roman", serif; 
 }
 
 li.nav-item {
@@ -60,40 +94,88 @@ a.nav-link:hover {
   text-shadow: 1px 1px 5px black;
 }
 
+sup.copyright {
+  font-size: 24px;
+}
 
 /*============ Header ============*/
+div.header-container {
+  padding: 0;
+}
+
 div.header {
   background-color: #A8ECF8;
   background-image: url(../img/banner.jpeg);
   background-repeat: no-repeat;
-  background-position: -30px -90px;
+  background-position: -30px center;
   border-bottom: 1px solid black;
+  height: 500px;
 }
 
 header {
   color: white;
-  background-color: #A8ECF8;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(100, 100, 100, .85);
   height: 100%;
   width: 100%;
-  padding: 120px 0;
+  padding: 150px 0;
 }
 
 header h1, header h2 {
-  font-size: 3em;
-  text-shadow: 1px 1px 10px black;
+  font-size: 55px;
+  text-shadow: 2px 2px 5px black;
 }
 
 header h2 {
-  font-size: 2.2em;
-  margin-top: 20px;
+  font-size: 40px;
+  margin-top: 10px;
 }
 
+.header-box-center {
+  width: 350px;
+  margin: 40px auto;
+  display: relative;
+}
+
+.header-box-one {
+  float: left;
+}
+
+.header-box-two {
+  float: right;
+}
+
+.header-box-center p {
+  border: 2px solid #FFF;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #000;
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: rgba(255, 255, 255, .4);
+  box-shadow: 1px 1px 3px #000;
+}
+
+.header-box-center p:hover {
+  box-shadow: 3px 3px 5px #000;
+}
+
+.header-box-center p:active {
+  box-shadow: 1px 1px 3px #000;
+}
 
 /*============ Main Section ============*/
 .sinister {
-  font-size: 1.5em;
+  margin-bottom: 0;
+  font-size: 26px;
   padding: 0 20px;
+}
+
+div.evil-eyes-container {
+  padding: 0;
+  border: 1px solid white;
+}
+
+.evil-force {
+  display: none;
 }
 
 .evil-eyes {
@@ -116,6 +198,20 @@ header h2 {
   margin-bottom: 0;
 }
 
+img.strengths-signal {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+p.list-p {
+  margin-bottom: 0;
+}
+
+ul.homepage-list {
+
+}
+
 .margin-top-20px {
   margin-top: 20px;
 }
@@ -124,7 +220,37 @@ header h2 {
   margin-top: 40px;
 }
 
+.margin-top-60px {
+  margin-top: 60px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+
 /*============ Testimonials ============*/
+div.testimonials-container {
+  background-color: #F2F2F2;
+  padding: 20px 25px 30px;
+  font-style: italic;
+}
+
+div.testimonials-container h2 {
+  padding-bottom: 40px;
+  font-style: normal;
+}
+
+.testimonial-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+span.name {
+  font-weight: bold;
+}
+
 .side-padding {
   padding-left: 15px;
   padding-right: 15px;
@@ -132,23 +258,60 @@ header h2 {
 
 .card {
   margin: 15px 0;
+  height: 535px;
+  box-shadow: 1px 1px 1px grey;
 }
 
-.sidekick {
-  margin-left: 120px;
+img.testimonial-img {
+  display: block;
+  margin: 0 auto 10px;
 }
 
 
 /*============ About ============*/
+div.donald-crews img {
+  padding-left: 15px;
+}
+
 .img-center {
   display: block;
   margin: 0 auto;
 }
 
+.gallup-img {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.gallup-img2 {
+  width: 100%;
+}
+
+div.why-i-coach {
+
+}
+
+img.word-cloud {
+  float: right;
+  margin: 0 20px 10px 10px;
+  width: 100%;
+  max-width: 370px;
+}
 
 /*============ Packages ============*/
+div.packages-container {
+  background-color: #F2F2F2;;
+  padding: 40px 25px 50px;
+}
+
 .breathing-room {
-  margin: 20px 0;
+  margin: 5px 0;
+}
+
+.packages-preview {
+  display: block;
+  margin: 0 auto;
 }
 
 .packages-link {
@@ -156,31 +319,32 @@ header h2 {
   width: 350px;
   margin: 40px auto 20px;
   text-decoration: none;
-  color: black;
+  color: #428B1A;
+  background-color: #FFF;
+  border: 2px solid #428B1A;
+  border-radius: 5px;
+  padding: 12px 15px;
 }
 
 .packages-link:hover {
   text-decoration: none;
-  color: black;
+  background-color: #428B1A;
+  color: #FFF;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: normal;
 }
 
-.packages-link div {
-  background-color: #61C250;
-  border: 1px solid #61C250;
-  border-radius: 3px;
-  padding: 8px 10px;
+div.packages-details div {
+  padding: 0 25px;
 }
 
-.packages-link div:hover {
-  background-color: white;
+div.packages-details ul {
+  list-style-type: none;
+  padding: 0 10px;
 }
 
-.packages-link p {
-  margin: 0;
-}
-
-ul {
-  padding: 0 20px;
+div.packages-details li {
+  margin-top: 15px;
 }
 
 
@@ -219,13 +383,24 @@ form.contact-form .submit {
   margin: 20px auto;
 }
 
+
 /*============ Footer ============*/
-footer {
-  background-color: #000;
-  border-top: 2px solid #61C250;
+div.credit p {
+  font-size: 10px;
+  padding-left: 30px;
 }
 
-footer {
+footer.container {
+  background-color: #424242;
+  border-top: 2px solid #428911;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+footer.container {
   padding: 10px 0;
 }
 
@@ -259,3 +434,20 @@ footer li {
     margin: 0 auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  div.washout {
+    padding: 0;
+  }
+
+  div.container {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  div.big-box-shadow {
+    overflow: hidden;
+  }
+}
+
+
