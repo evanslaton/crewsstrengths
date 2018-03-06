@@ -54,6 +54,10 @@ p {
   padding: 50px 0;
 }
 
+.contact-big {
+  font-size: 22px;
+}
+
 hr {
   color: grey;
   width: 90%;
@@ -112,9 +116,27 @@ div.header {
   height: 500px;
 }
 
+div.header2 {
+  background-color: grey;
+  background-image: url(../img/speaking-in-action.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 1px solid black;
+  height: 500px;
+}
+
 header {
   color: white;
   background-color: rgba(100, 100, 100, .85);
+  height: 100%;
+  width: 100%;
+  padding: 150px 0;
+}
+
+header.speaking {
+  color: white;
+  background-color: rgba(100, 100, 100, .45);
   height: 100%;
   width: 100%;
   padding: 150px 0;
@@ -208,8 +230,18 @@ p.list-p {
   margin-bottom: 0;
 }
 
-ul.homepage-list {
+img.homepage-strengths {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+}
 
+/*.homepage-strengths-p {
+  font-size: 20px;
+}*/
+
+ul.homepage-list {
+    margin-left: 40px;
 }
 
 .margin-top-20px {
@@ -224,10 +256,17 @@ ul.homepage-list {
   margin-top: 60px;
 }
 
+.margin-top-80px {
+  margin-top: 80px;
+}
+
 .no-margin-bottom {
   margin-bottom: 0;
 }
 
+.padding-left-40px {
+  padding-left: 40px;
+}
 
 /*============ Testimonials ============*/
 div.testimonials-container {
@@ -347,6 +386,18 @@ div.packages-details li {
   margin-top: 15px;
 }
 
+
+/*============ Speaking & Workshops ============*/
+div.speaking-call-to-action {
+  margin-top: 50px;
+  text-align: center;
+}
+
+div.speaking-call-to-action p {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 15px;
+}
 
 /*============ Contact ============*/
 form.contact-form {
