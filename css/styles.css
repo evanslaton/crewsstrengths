@@ -1,6 +1,6 @@
 /*============ Whole Page ============*/
 body {
-  font-family: "Robot", sans-serif;
+  font-family: "Times New Roman", serif;
   font-size: 16px;
   height: 100%;
   background-image: url(../img/background-logo.png);
@@ -73,8 +73,8 @@ div.nav-container {
 }
 
 nav.navbar {
-  background-color: #424242;
-  border-bottom: 2px solid #428911;
+  background-color: #428B1A;
+  border-bottom: 2px solid grey;
   font-family: "Times New Roman", serif; 
 }
 
@@ -108,10 +108,10 @@ div.header-container {
 }
 
 div.header {
-  background-color: #A8ECF8;
+  background-color: #FFF;
   background-image: url(../img/banner.jpeg);
   background-repeat: no-repeat;
-  background-position: -30px center;
+  background-position: -10px center;
   border-bottom: 1px solid black;
   height: 500px;
 }
@@ -126,9 +126,19 @@ div.header2 {
   height: 500px;
 }
 
+div.header-packages {
+  background-image: url(../img/packages/packages-banner.png);
+  background-position: center center;
+}
+
+div.header-about {
+  background-image: url(../img/banner1.jpeg);
+  background-position: center center;
+}
+
 header {
   color: white;
-  background-color: rgba(100, 100, 100, .85);
+  background-color: rgba(175, 175, 175, .8);
   height: 100%;
   width: 100%;
   padding: 150px 0;
@@ -136,13 +146,14 @@ header {
 
 header.speaking {
   color: white;
-  background-color: rgba(100, 100, 100, .45);
+  background-color: rgba(150, 150, 150, .4);
   height: 100%;
   width: 100%;
   padding: 150px 0;
 }
 
 header h1, header h2 {
+/*  color: black;*/
   font-size: 55px;
   text-shadow: 2px 2px 5px black;
 }
@@ -172,7 +183,7 @@ header h2 {
   text-shadow: 1px 1px 1px #000;
   display: inline-block;
   padding: 8px 35px;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(200, 200, 200, .4);
   box-shadow: 1px 1px 3px #000;
 }
 
@@ -185,6 +196,7 @@ header h2 {
 }
 
 /*============ Main Section ============*/
+
 .sinister {
   margin-bottom: 0;
   font-size: 26px;
@@ -220,8 +232,14 @@ div.evil-eyes-container {
   margin-bottom: 0;
 }
 
+img.pow {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
 img.strengths-signal {
-  max-width: 350px;
+  max-width: 300px;
   display: block;
   margin: 0 auto 20px;
 }
@@ -308,6 +326,19 @@ img.testimonial-img {
 
 
 /*============ About ============*/
+a.about-links {
+  color: white;
+  display: block;
+  text-shadow: 1px 1px 3px black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+a.about-links:hover {
+  text-decoration: none;
+}
+
 div.donald-crews img {
   padding-left: 15px;
 }
@@ -356,7 +387,7 @@ div.packages-container {
 .packages-link {
   display: block;
   width: 350px;
-  margin: 40px auto 20px;
+  margin: 20px auto;
   text-decoration: none;
   color: #428B1A;
   background-color: #FFF;
@@ -388,6 +419,10 @@ div.packages-details li {
 
 
 /*============ Speaking & Workshops ============*/
+header.speaking {
+  padding-top: 125px;
+}
+
 div.speaking-call-to-action {
   margin-top: 50px;
   text-align: center;
@@ -400,6 +435,30 @@ div.speaking-call-to-action p {
 }
 
 /*============ Contact ============*/
+div.header-relative {
+  position: relative;
+}
+
+div.banner-logo {
+  width: 42%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+div.banner-logo img {
+  height: 100%;
+}
+
+header.z-index {
+  position: relative;
+  z-index: 2;
+}
+
 form.contact-form {
   width: 100%;
   padding: 0 25px;
@@ -442,8 +501,8 @@ div.credit p {
 }
 
 footer.container {
-  background-color: #424242;
-  border-top: 2px solid #428911;
+  background-color: #428B1A;
+  border-top: 2px solid grey;
   width: 100%;
   max-width: 100%;
   padding: 0;
@@ -486,6 +545,47 @@ footer li {
   }
 }
 
+@media screen and (max-width: 992px) {
+  div.contact-page div.header {
+    background-position: left center;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  div.header-packages {
+    background-image: url(../img/packages/packages-banner.png);
+    background-position: 130% center;
+  }
+
+  div.header-about {
+    background-position: left center;
+  }
+
+  header.header-relative div.banner-logo {
+    display: none;
+  }
+
+  header h1.header-h1-packages {
+    max-width: 50%;
+  }
+
+  header h2.header-h2-packages {
+    max-width: 50%;
+  }
+
+  header h1.header-about {
+    margin-left: 45%;
+    max-width: 50%;  
+  }
+
+  header a.about-links {
+    margin-left: 45%;
+    max-width: 50%;    
+  }
+}
+
 @media screen and (max-width: 1000px) {
   div.washout {
     padding: 0;
@@ -499,6 +599,15 @@ footer li {
   div.big-box-shadow {
     overflow: hidden;
   }
+
+  div.banner-logo {
+    display: none;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  div.header-packages {
+    background-position: 110% center;
+  }
+}
 
