@@ -1,7 +1,7 @@
 /*============ Whole Page ============*/
 body {
   font-family: "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 20px;
   height: 100%;
   background-image: url(../img/background-logo.png);
   background-repeat: repeat;
@@ -58,6 +58,14 @@ p {
   font-size: 22px;
 }
 
+.contact-big a {
+  color: black;
+}
+
+.contact-big a:hover {
+  text-decoration: none;
+}
+
 hr {
   color: grey;
   width: 90%;
@@ -89,7 +97,7 @@ li.nav-item {
 a.nav-link {
   color: white;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 20.5px;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
 }
@@ -116,6 +124,15 @@ div.header {
   height: 500px;
 }
 
+div.header-index {
+  background-image: url(../img/banner1.jpeg);
+  background-position: left center;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid black;
+  height: 500px;
+}
+
 div.header2 {
   background-color: grey;
   background-image: url(../img/speaking-in-action.jpg);
@@ -127,7 +144,7 @@ div.header2 {
 }
 
 div.header-packages {
-  background-image: url(../img/packages/packages-banner.png);
+  background-image: url(../img/packages/packages-preview.png);
   background-position: center center;
 }
 
@@ -208,6 +225,14 @@ div.evil-eyes-container {
   border: 1px solid white;
 }
 
+/*div.scrolling-text {
+  padding-top: 30px;
+}
+
+p.scrolling-text2 {
+  padding-top: 20px;
+}*/
+
 .evil-force {
   display: none;
 }
@@ -218,6 +243,10 @@ div.evil-eyes-container {
   background-position: center center;
   background-size: cover;
 }
+
+/*div.set-height {
+  min-height: 225px;
+}*/
 
 .fixed {
   background-attachment: fixed;
@@ -233,12 +262,14 @@ div.evil-eyes-container {
 }
 
 img.pow {
+  width: 95%;
   max-width: 300px;
   display: block;
   margin: 0 auto;
 }
 
 img.strengths-signal {
+  width: 95%;
   max-width: 300px;
   display: block;
   margin: 0 auto 20px;
@@ -264,6 +295,10 @@ ul.homepage-list {
 
 .margin-top-20px {
   margin-top: 20px;
+}
+
+.margin-bottom-60px {
+  margin-bottom: 60px;
 }
 
 .margin-top-40px {
@@ -328,15 +363,27 @@ img.testimonial-img {
 /*============ About ============*/
 a.about-links {
   color: white;
+  width: 100%;
+  max-width: 275px !important;
   display: block;
   text-shadow: 1px 1px 3px black;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
   font-size: 20px;
+  border: 1px solid white;
+  padding: 5px 0;
+  background-color: rgba(200, 200, 200, .4);
+  box-shadow: 1px 1px 3px black;
 }
 
 a.about-links:hover {
   text-decoration: none;
+  box-shadow: 3px 3px 5px black;
+}
+
+a.about-links:active {
+  text-decoration: none;
+  box-shadow: 1px 1px 3px black;
 }
 
 div.donald-crews img {
@@ -358,8 +405,8 @@ div.donald-crews img {
   width: 100%;
 }
 
-div.why-i-coach {
-
+div.donald-crews .col-lg-7 {
+  padding-right: 30px;
 }
 
 img.word-cloud {
@@ -386,7 +433,8 @@ div.packages-container {
 
 .packages-link {
   display: block;
-  width: 350px;
+  width: 95%;
+  max-width: 350px;
   margin: 20px auto;
   text-decoration: none;
   color: #428B1A;
@@ -434,6 +482,22 @@ div.speaking-call-to-action p {
   padding: 5px 15px;
 }
 
+
+/*============ Blogs ============*/
+h1.blog-h1 {
+  margin-top: 50px;
+}
+
+div.feat-art-div {
+  border-right: 1px solid black;
+}
+
+p.coming-soon {
+  font-size: 26px;
+  padding: 40px 0;
+}
+
+
 /*============ Contact ============*/
 div.header-relative {
   position: relative;
@@ -457,6 +521,10 @@ div.banner-logo img {
 header.z-index {
   position: relative;
   z-index: 2;
+}
+
+div.contact-form {
+  padding-right: 35px;
 }
 
 form.contact-form {
@@ -497,7 +565,12 @@ form.contact-form .submit {
 /*============ Footer ============*/
 div.credit p {
   font-size: 10px;
+  padding-right: 30px;
+}
+
+div.footer-contact {
   padding-left: 30px;
+  font-size: 18px;
 }
 
 footer.container {
@@ -543,7 +616,213 @@ footer li {
   footer ul {
     margin: 0 auto;
   }
+
+  div.contact-form {
+    margin-top: 40px;
+    padding-left: 35px;
+  }
 }
+
+@media screen and (max-width: 620px) {
+  div.header {
+    background-position: 5% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer div.col-lg-4 {
+    margin: 8px 0;
+  }
+
+  div.footer-contact {
+    padding: 0;
+  }
+
+  div.credit p {
+    padding: 0 5px;
+  }
+
+  div.donald-crews img {
+    padding-left: 0;
+  }
+
+  div.donald-crews .col-lg-7 {
+    margin-top: 20px;
+  }
+
+  img.word-cloud {
+    float: none;
+    margin: 10px auto;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+  div.header {
+    background-position: 7% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  div.header {
+    background-position: 9% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+
+  div.header-index {
+    background-position: 50% center;
+  }
+
+  div.header-index h1 {
+    font-size: 40px;
+  }
+
+  div.header-index h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div.header {
+    background-position: 11% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+
+  div.header-index h1 {
+    font-size: 36px;
+  }
+
+  div.header-index h2 {
+    font-size: 32px;
+  }
+
+  div.header-index header .header-box-center {
+    text-align: center;
+    width: 100%;
+  }
+
+  div.header-index header .header-box-one, div.header-index header .header-box-two {
+    float: none;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  p.header-box {
+    width: 100%;
+  }
+
+  header.speaking h1 {
+    font-size: 40px;
+  }
+
+  header.speaking h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  p.contact-big {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.header {
+    background-position: 13% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+
+  a.navbar-brand {
+    font-size: 16px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  div.header {
+    background-position: 15% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+
+  ul.homepage-list {
+    margin-left: 10px;
+  }
+}
+
+/*@media screen and (min-width: 350px) {
+  div.scrolling-text {
+    padding-top: 50px;
+  }
+
+  p.scrolling-text2 {
+    padding-top: 0px;
+  }
+}*/
+
+@media screen and (max-width: 330px) {
+  header {
+    padding-top: 100px;
+  }
+
+  h2.what-is-strengthsfinder {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  div.header {
+    background-position: 17% center;
+  }
+
+  div.header-packages {
+    background-position: center center;
+  }
+
+  div.header-contact h1 {
+    font-size: 50px;
+  }
+}
+
+/*@media screen and (min-width: 469px) {
+  div.set-height {
+    min-height: 175px;
+  }
+}*/
+
+@media screen and (max-width: 768px) {
+  div.feat-art-div {
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+}
+
+/*@media screen and (min-width: 813px) {
+  div.set-height {
+    min-height: 150px;
+  }
+}*/
 
 @media screen and (max-width: 992px) {
   div.contact-page div.header {
@@ -552,15 +831,9 @@ footer li {
   }
 }
 
-
 @media screen and (min-width: 992px) {
   div.header-packages {
-    background-image: url(../img/packages/packages-banner.png);
-    background-position: 130% center;
-  }
-
-  div.header-about {
-    background-position: left center;
+    background-position: 95% center;
   }
 
   header.header-relative div.banner-logo {
@@ -581,7 +854,7 @@ footer li {
   }
 
   header a.about-links {
-    margin-left: 45%;
+    margin-left: 57%;
     max-width: 50%;    
   }
 }
@@ -607,7 +880,10 @@ footer li {
 
 @media screen and (min-width: 1200px) {
   div.header-packages {
-    background-position: 110% center;
+    background-position: 93% center;
   }
 }
 
+div.header-contact h1 {
+  padding-top: 80px;
+}
