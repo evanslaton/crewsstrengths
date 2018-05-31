@@ -416,6 +416,25 @@ img.word-cloud {
   max-width: 370px;
 }
 
+img.word-cloud {
+  float: right;
+  margin: 0 20px 10px 10px;
+  width: 100%;
+  max-width: 370px;
+}
+
+img.donald-img {
+  float: left;
+  width: 100%;
+  max-width: 370px;
+  margin: 10px 20px 10px 10px;
+}
+
+ul.donald-ul {
+  padding-left: 425px;
+}
+
+
 /*============ Packages ============*/
 div.packages-container {
   background-color: #F2F2F2;;
@@ -646,19 +665,10 @@ footer li {
     padding: 0 5px;
   }
 
-  div.donald-crews img {
-    padding-left: 0;
-  }
-
-  div.donald-crews .col-lg-7 {
-    margin-top: 20px;
-  }
-
   img.word-cloud {
     float: none;
     margin: 10px auto;
   }
-
 }
 
 @media screen and (max-width: 560px) {
@@ -818,11 +828,17 @@ footer li {
   }
 }
 
-/*@media screen and (min-width: 813px) {
-  div.set-height {
-    min-height: 150px;
+@media screen and (max-width: 800px) {
+  img.donald-img {
+    max-width: 400px;
+    float: none;
+    margin: 10px auto;
   }
-}*/
+
+  ul.donald-ul {
+    padding-left: 45px;
+  }
+}
 
 @media screen and (max-width: 992px) {
   div.contact-page div.header {
