@@ -124,6 +124,16 @@ div.header {
   height: 500px;
 }
 
+div.blog-header1 {
+  background-image: url(../img/blog-images/blog-image1.png);
+  background-position: center center;
+}
+
+.blog-posts-text {
+  padding: 15px;
+  margin: 25px 0 25px;
+}
+
 div.header-index {
   background-image: url(../img/banner1.jpeg);
   background-position: left center;
@@ -135,7 +145,7 @@ div.header-index {
 
 div.header2 {
   background-color: grey;
-  background-image: url(../img/speaking-in-action.jpg);
+  background-image: url(../img/banner-images/image1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -192,6 +202,10 @@ header h2 {
 
 .header-box-two {
   float: right;
+}
+
+p.header-box {
+  width: 170px;
 }
 
 .header-box-center p {
