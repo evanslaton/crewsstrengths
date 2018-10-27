@@ -1,7 +1,7 @@
 'use strict';
 console.log('test');
 $(document).ready(function() {
-  let i = 1;
+  let i = 0;
 
   const showNextImage = () => {
     let extension;
@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
 
     if (i === 2) {
-      $('#image-carousel').css('background-position', '0 -125px');
+      $('#image-carousel').css('background-position', 'center 0');
     } else if (i === 3) {
       $('#image-carousel').css('background-position', 'center center');
     }
@@ -22,5 +22,5 @@ $(document).ready(function() {
 
   window.setInterval(function(){
     showNextImage();
-  }, 1000);
+  }, 4000);
 });

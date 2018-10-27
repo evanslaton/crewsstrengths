@@ -115,6 +115,10 @@ div.header-container {
   padding: 0;
 }
 
+.feat-art-div {
+  padding-bottom: 25px;
+}
+
 div.header {
   background-color: #FFF;
   background-image: url(../img/banner.jpeg);
@@ -239,28 +243,18 @@ div.evil-eyes-container {
   border: 1px solid white;
 }
 
-/*div.scrolling-text {
-  padding-top: 30px;
-}
-
-p.scrolling-text2 {
-  padding-top: 20px;
-}*/
-
 .evil-force {
   display: none;
 }
 
 .evil-eyes {
   height: 200px;
+  background-color: #121111;
   background-image: url(../img/evil-eyes.png);
   background-position: center center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
-
-/*div.set-height {
-  min-height: 225px;
-}*/
 
 .fixed {
   background-attachment: fixed;
@@ -515,8 +509,29 @@ div.speaking-call-to-action p {
   padding: 5px 15px;
 }
 
+.logo-container {
+  text-align: center;
+}
+
+.logo-container img {
+  width: 100%;
+  max-width: 300px;
+  margin: 25px;
+}
+
 
 /*============ Blogs ============*/
+h2.blog-articles {
+  margin-bottom: 40px;
+}
+
+article.blog-snippet img {
+  width: 100%;
+  max-width: 150px;
+  float: left;
+  margin-right: 25px;
+}
+
 h1.blog-h1 {
   margin-top: 50px;
 }
@@ -715,6 +730,17 @@ footer li {
   div.header-index h2 {
     font-size: 36px;
   }
+
+  article.blog-snippet img {
+    max-width: 100%;
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .blog-snippet {
+    text-align: center;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -828,11 +854,11 @@ footer li {
   }
 }
 
-/*@media screen and (min-width: 469px) {
-  div.set-height {
-    min-height: 175px;
+/* @media screen and (min-width: 758px) {
+  .feat-art-div {
+    padding-bottom: 25px;
   }
-}*/
+} */
 
 @media screen and (max-width: 768px) {
   div.feat-art-div {
