@@ -86,8 +86,8 @@ nav.navbar {
   font-family: "Times New Roman", serif; 
 }
 
-li.nav-item {
-  margin-right: 10px;
+li.nav-item a {
+  font-size: 19px;
 }
 
 .navbar-toggler-icon {
