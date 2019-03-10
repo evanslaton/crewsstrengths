@@ -157,6 +157,17 @@ div.header2 {
   height: 500px;
 }
 
+div.header3 {
+  background-color: grey;
+  background-image: url(../img/library-images/library-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 1px solid black;
+  height: 500px;
+}
+
+
 div.header-packages {
   background-image: url(../img/packages/packages-preview.png);
   background-position: center center;
@@ -303,6 +314,10 @@ ul.homepage-list {
 
 .margin-top-20px {
   margin-top: 20px;
+}
+
+.margin-bottom-20px {
+  margin-bottom: 20px;
 }
 
 .margin-bottom-60px {
